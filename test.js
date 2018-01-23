@@ -1,11 +1,10 @@
-function starString(num)
-{
-    str = "";
-    for (var i = 0; i < num; i++)
-    {
-        str += "*";
-    }
-    return str;
+dojo = "san jose";
+console.log(dojo);
+learn();
+function learn() {
+	dojo = "seattle";
+	console.log(dojo);
+	var dojo = "burbank";
+	console.log(dojo);
 }
-let stars = starString(50);
-console.log(stars);
+console.log(dojo);
